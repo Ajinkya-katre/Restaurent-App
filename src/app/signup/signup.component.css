@@ -1,0 +1,15 @@
+#login
+{
+    width: 100vw;
+    height: 100vh;
+    /* background: linear-gradient(to right, #757f9a, #d7dde8); */
+    background: linear-gradient(to right, #4cb8c4, #3cd3ad);
+    font-family: 'Poppins', sans-serif;
+}
+.row
+{
+    position: absolute;
+    top: 20%;
+    left: 10%;
+    color: #000;
+}

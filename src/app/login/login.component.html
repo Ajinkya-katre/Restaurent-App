@@ -1,0 +1,33 @@
+<section id="login">
+<div class="container-fluid " >
+    <div class="row " >
+        <div class="col-md-6 " >
+            <div class="text-center mt-5">
+                <img src="https://cdn-icons-png.flaticon.com/512/295/295128.png" height="50%" width="50%" alt="">
+            </div>
+        </div>
+        <div class="col-md-6">
+            <div class="text-center">
+                <h1 style="font-weight:bold" >Restaurent Login</h1>
+                <h4>India's First Restaurent Service</h4>
+                
+            </div><hr>
+            <div>
+                <form [formGroup]="loginForm" (ngSubmit)="logIn()">
+                                    <div class="form-group">
+                      <label for="exampleInputEmail1">Email address</label>
+                      <input formControlName="email" type="email" class="form-control" placeholder="Enter Correct email">
+                    </div>
+                    <div class="form-group">
+                      <label for="exampleInputPassword1">Password</label>
+                      <input formControlName="password" type="password" class="form-control" placeholder="Enter Correct Password">
+                    </div>
+      
+                    <button type="submit" class="btn btn-success mt-2">login</button>
+                  </form>
+                  <a routerLink="/signup" class="text-secondary" > New User ? Click to SignUp</a>
+            </div>
+        </div>
+    </div>
+</div>
+</section>

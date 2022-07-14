@@ -1,0 +1,108 @@
+{
+  "posts": [
+    {
+      "id": 6,
+      "name": "Kajal sarvaiye",
+      "email": "ksarvaiye@gmail.com",
+      "mobile": "9075421666",
+      "address": "amanora",
+      "services": "C, C++"
+    },
+    {
+      "id": 7,
+      "name": "Pranoti Suryawanshi",
+      "email": "pranotisurya@gmail.com",
+      "mobile": "8956515090",
+      "address": "DP.road",
+      "services": "C, C++"
+    },
+    {
+      "id": 8,
+      "name": "Yash jagtap",
+      "email": "YJ@gmail.com",
+      "mobile": "87654323456",
+      "address": "kalepadal",
+      "services": "coffee"
+    },
+    {
+      "id": 10,
+      "name": "monika katre",
+      "email": "monikakatre4@gmail.com",
+      "mobile": "9156166624",
+      "address": "Hadapsar",
+      "services": "Tea, Coffee"
+    },
+    {
+      "id": 5,
+      "name": "Tasty Punjab",
+      "email": "tastybites@gmail.com",
+      "mobile": "9422282426",
+      "address": "Magarpatta, Hadapsar, Pune 28",
+      "services": "All Types of Veg Dishes "
+    },
+    {
+      "id": 11,
+      "name": "Mavla",
+      "email": "mavla@gmail.com",
+      "mobile": "8308607474",
+      "address": "Malwadi",
+      "services": "non veg , veg"
+    },
+    {
+      "id": 12,
+      "name": "Blue Nile",
+      "email": "blue@gmail.com",
+      "mobile": "7620849210",
+      "address": "Behind Vaibhav Theater,  Hadapsar",
+      "services": "Non-veg Biryani, Veg Biryani"
+    }
+  ],
+  "signup": [
+    {
+      "name": "Priyanka Katre",
+      "mobile": 8308607474,
+      "email": "priyankakatre@gmail.com",
+      "password": "8308607474",
+      "id": 1
+    },
+    {
+      "name": "Ajinkya Katre",
+      "mobile": 7620849210,
+      "email": "katreajinkya@gmail.com",
+      "password": "8308607474",
+      "id": 2
+    },
+    {
+      "name": "test",
+      "mobile": 1234567898,
+      "email": "test@gmail.com",
+      "password": "12345678",
+      "id": 3
+    },
+    {
+      "name": "ak",
+      "mobile": 1234567899,
+      "email": "ak@gmail.com",
+      "password": "12345678",
+      "id": 4
+    },
+    {
+      "name": "Samir",
+      "mobile": 9886347263,
+      "email": "samir@gmail.com",
+      "password": "5555",
+      "id": 5
+    },
+    {
+      "name": "ajiu",
+      "mobile": 7620849210,
+      "email": "ak@gmail.com",
+      "password": "7620849210",
+      "id": 6
+    }
+  ],
+  "comments": [],
+  "profile": {
+    "name": "typicode"
+  }
+}
