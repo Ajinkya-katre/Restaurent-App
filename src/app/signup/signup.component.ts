@@ -27,13 +27,13 @@ export class SignupComponent implements OnInit {
   //make method to create user
   signUp()
   {
-    this._http.post<any>("http://localhost:3000/signup",this.signupForm.value).subscribe(res=>{
-      alert('Registration SuccesFully !!!')
+    this._http.post<any>("http://localhost:3000/signup",this.signupForm.value).subscribe((res)=>{
+      alert('Registration SuccesFully !!!');
       this.signupForm.reset();
       this.router.navigate(['login'])
     },
     err=>{
-      alert('Something is went wrong !');
+      alert('Something is went wrong while entering registration form !, ');
     }
     )
   }

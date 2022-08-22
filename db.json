@@ -55,6 +55,14 @@
       "mobile": "7620849210",
       "address": "Behind Vaibhav Theater,  Hadapsar",
       "services": "Non-veg Biryani, Veg Biryani"
+    },
+    {
+      "id": 13,
+      "name": "Jai Malhar ",
+      "email": "jai@gmail.com",
+      "mobile": "9966332211",
+      "address": "Hadapsar",
+      "services": "All Veg And Non-Veg"
     }
   ],
   "signup": [
