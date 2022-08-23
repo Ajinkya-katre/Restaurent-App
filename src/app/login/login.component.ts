@@ -44,7 +44,5 @@ export class LoginComponent implements OnInit {
   }
 
 }
-function a(a: any, any: any) {
-  throw new Error('Function not implemented.');
-}
+
 
