@@ -104,9 +104,6 @@ export class DashboardComponent implements OnInit {
       })
     }
 }
-function clickAddResto() {
-  throw new Error('Function not implemented.');
-}
 
 function addClickResto() {
   throw new Error('Function not implemented.');
