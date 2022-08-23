@@ -10,14 +10,14 @@
 <div class="p-5 mb-4 bg-light rounded-3">
     <div class="container-fluid py-5">
       <h1 class="display-5">Restaurent Records Management</h1>
-      <p class="col-md-8 fs-4">You Can Save Records of Restaurent Using Angular 12</p>
+      <p class="col-md-8 fs-4">You Can Save Records of Restaurent </p>
       <a class="btn btn-primary btn-lg" href="https://www.youtube.com/channel/UCFRHlwg00NfoQxJAk8JHd4g" type="button" target="_blank">ak infotech</a>
     </div>
   </div>
 
 <!-- Table Shown here -->
-<table class="table " >
-    <thead>
+<table class="table table-bordered  table-striped table-hover table-responsive" >
+    <thead class="bg-dark text-white">
     <tr>
 
         <th scope="col">Restaurent Id</th>
@@ -31,7 +31,7 @@
     </tr>
     </thead>
     <tbody>
-    <tr *ngFor="let data of allRestaurentData">
+    <tr *ngFor="let data of allRestaurentData; let i = index">
         <td>{{data.id}}</td>
         <td>{{data.name}}</td>  
         <td>{{data.email}}</td>  

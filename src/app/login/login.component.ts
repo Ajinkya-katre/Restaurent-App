@@ -34,7 +34,7 @@ export class LoginComponent implements OnInit {
       }
       else
       {
-        alert('Login Failed !')
+        alert('Login Failed, Please Check Login Details !')
       }
 
     },err=>{
